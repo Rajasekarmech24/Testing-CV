@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <form action="mailto:info@beycanrobotics.com" method="post" enctype="text/plain">
+    <fieldset>
+      <legend><strong>Course Registration Form:</strong></legend>
+      <label><strong>Name:</strong></label><br>
+      <input type="text" name="" value=""><br><br>
+      <label><strong>Email ID:</strong></label><br>
+      <input type="email" name="" value=""><br><br>
+      <label><strong>Mobile No:</strong></label><br>
+      <input type="text" name="" value=""><br><br>
+      <label for="birthday"><strong>Date of Birth:</strong></label><br>
+      <input type="date" id="birthday" name="birthday"><br><br>
+      <label for="Education Qualification"><strong>Education Qualification:</strong></label><br>
+      <select id="Education Qualification" name="Education Qualification"><br>
+        <option value="Grade 12">Grade 12</option>
+        <option value="B.Sc.">B.Sc.</option>
+        <option value="B.E.">B.E.</option>
+        <option value="MCA">MCA</option>
+      </select><br><br>
+        <label for="text"><strong>Proof of Education Qualification:</strong></label><br>
+        <input type="file" id="myfile" name="myfile"><br><br>
+        <label for="Course(s) to Register"><strong>Course(s) to Register:</strong></label><br>
+        <select id="Course(s) to Register" name="Course(s) to Register" size="3" multiple><br>
+          <option value="Python">Python</option>
+          <option value="Web Design">Web Design</option>
+          <option value="Basic Electronics">Basic Electronics</option>
+          <option value="C Programming">C Programming</option>
+          <option value="Lego Junior">Lego Junior</option>
+          <option value="AutoCAD 2D">AutoCAD 2D</option>
+          <option value="Arduino">Arduino</option>
+        </select><br><br>
+      <label for="quantity"><strong>No of Courses Interested:</strong></label><br>
+      <input type="number" id="quantity" name="quantity" min="1" max="3">
+        <p><strong>I do hereby declare that all the information given above is true to the best of my knowledge and belief *</strong></p>
+        <input type="checkbox" id="Declaration" name="Declaration" value="Declaration">
+    <label for="Yes"> Yes</label><br><br>
+    <input type="submit" value="Submit">
+      </fieldset>
+  </form>
+</body>
+
+</html>
